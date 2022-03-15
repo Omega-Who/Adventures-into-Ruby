@@ -1,7 +1,8 @@
 #"C:\Ruby31-x64\bin\ruby.exe"
 
-# Defining and calling of a method
+# all methods start lowercase
 
+# Defining and calling of a method
 # Here I define the method name
 def printer
     
@@ -54,3 +55,23 @@ end
 #calling method by passing variable number of arguments
 Many "One", "Two"
 Many "Three"
+
+
+# Return method statements
+
+# numb is the method name 
+def numb 
+
+# variables of method
+a = 10
+b = 39 
+
+sum = a + b 
+
+# return the value of the sum 
+return sum
+
+end 
+
+# Calling of the numb method
+puts "The result is: #{numb}"
