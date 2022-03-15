@@ -1,3 +1,4 @@
+# Examples of simple code
 #C:\Ruby31-x64\bin\ruby.exe
 
 # Prints to the Console

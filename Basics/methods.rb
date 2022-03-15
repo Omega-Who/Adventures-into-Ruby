@@ -1,6 +1,6 @@
-#"C:\Ruby31-x64\bin\ruby.exe"
-
+# Demonstration of methods
 # all methods start lowercase
+#"C:\Ruby31-x64\bin\ruby.exe"
 
 # Defining and calling of a method
 # Here I define the method name
