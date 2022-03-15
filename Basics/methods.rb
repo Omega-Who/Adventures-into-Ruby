@@ -13,7 +13,7 @@ def printer
     puts "#{to_print}"
     
     # Ending of method
-    end
+end
 
 printer
 
