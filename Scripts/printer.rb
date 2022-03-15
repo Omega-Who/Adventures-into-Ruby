@@ -1,14 +1,4 @@
 # Printer Script
-#"C:\Ruby31-x64\bin\ruby.exe"
-
-=begin
-loop do		
-	puts "Line Printed, "			
-	val = '999'
-if val == '999'
-	break
-end
-=end
 
 for x in 0..999
 
