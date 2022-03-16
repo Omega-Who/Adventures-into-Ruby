@@ -1,0 +1,4 @@
+Name      = Dungeon Diving based on ZUD
+Version   = 0.0.0
+Website   = -
+Credits   = Omega
