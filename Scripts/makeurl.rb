@@ -6,18 +6,20 @@ class Insertweb
     @web_extension = "extension"
   end
   def display
-    # Display Variables
-    print "Website Name: "
+    # Input Variables for Display
+    print   "Website Name: "
     website = gets.chomp
-    print "Direction: "
-    dir     = gets.chomp
-    # Link Extensions
     com     = ".com"
+    # Text Shown
     puts "\nLinks:"
+    puts "https://www.#{website}#{com}/"
+    # Direct the Link
+    puts    "\nInsert a Direction for the link to point towards if wanted."
+    print   "Direction: "
+    dir     = gets.chomp
     puts "https://www.#{website}#{com}/#{dir}"
   end
 end
-# Object
+# Object & Display
 url = Insertweb.new()
-# Display
 url.display()
