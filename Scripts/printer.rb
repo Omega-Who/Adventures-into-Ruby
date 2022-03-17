@@ -6,5 +6,5 @@ for x in 1..Float::INFINITY
 		next
 	end	
 	# Print
-	puts "Line #{x*1000000000}, Printed."
+	puts "Line #{x*1}, Printed."
 end
