@@ -1,23 +1,14 @@
 # Website URL Program
 class Insertweb
-  def initialize
-    # Variables
-    @web_website   = "website"
-    @web_extension = "extension"
-  end
   def display
-    # Input Variables for Display
-    print   "Website Name: "
+  # Input Website
+    print   "Insert a website name ending in .com,\nWebsite Name: "
     website = gets.chomp
-    com     = ".com"
-    # Text Shown
-    puts "\nLinks:"
-    puts "https://www.#{website}#{com}/"
-    # Direct the Link
-    puts    "\nInsert a Direction for the link to point towards if wanted."
-    print   "Direction: "
+  # Direct the Link
+    print   "\nInsert a Direction for the link to point towards if wanted,\nDirection: "
     dir     = gets.chomp
-    puts "https://www.#{website}#{com}/#{dir}"
+  # Links Printed
+    puts    "\nLinks:\nhttps://www.#{website}.com/\nhttps://www.#{website}.com/#{dir}"
   end
 end
 # Object & Display
