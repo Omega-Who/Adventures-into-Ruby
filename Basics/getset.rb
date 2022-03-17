@@ -1,10 +1,8 @@
 # Ruby Getting Method
 #"C:\Ruby31-x64\bin\ruby.exe"
 
-
-# Getter method
-
-=begin 
+=begin
+# Getter method 
 class Repo
 
 	# Constructor to initialize the class with a name instance variable
